@@ -33,8 +33,7 @@ namespace CalculationsProK
 			double sum = 0;
 			bool inputIsNumber;
 			double numbers;
-			double numbFrom1to13;
-			double avarage = 0;
+			
 			Console.WriteLine("Calculate the sum of the negative numbres. Enter some numbers. When you're done, enter 0.");
 
 			do
@@ -59,8 +58,11 @@ namespace CalculationsProK
 			}
 			Console.WriteLine("........................................................................");
 
-			//2 част => Да се въведат от клавиатурата 13 числа. 
-			//         Да се намери и отпечата на екрана стредноаретметичното на тези от тях, които отговарят на следното условие: да са положителни или по-малки от -100 .
+		// 2 част =>Да се въведат от клавиатурата 13 числа. 
+		//       Да се намери и отпечата на екрана стредноаретметичното на тези от тях, които отговарят на следното условие: да са положителни или по-малки от -100 .
+
+			double numbFrom1to13;
+			double avarage = 0;
 
 			Console.WriteLine("Enter 13 numbers");
 			for (int i = 0; i < 13; i++)

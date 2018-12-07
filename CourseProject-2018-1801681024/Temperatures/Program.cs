@@ -34,7 +34,7 @@ namespace Temperatures
 				Console.WriteLine(today);
 			    double[] a = new double[today.Day]; Interval(a);
 
-				// в) Да се отпечата на екрана разликата максималната и минималната среднодневни температури: - в ( °C ) и в ( °K )
+				// в) Да се отпечата на екрана разликата между максималната и минималната среднодневни температури: - в ( °C ) и в ( °K )
 
 				double Min = a[0];
 				double Max = a[0];

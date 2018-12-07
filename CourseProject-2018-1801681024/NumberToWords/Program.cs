@@ -9,14 +9,14 @@ namespace NumberToWords
 			//  Task 7
 			// Условие => Съставете метод ,който при зададено число (до 9 цифри) връща записа на това число с думи. - стр.210 / 369
 
-			if (number > 1000000000)
-				return "You must enter number up to 1 000 000 000 ";
+			if (number >= 1000000000)
+				return "You must enter number up to 9 digits ";
 
 				if (number == 0)
 					return "zero";
 
 				if (number < 0)
-					return "minus " + NumberToWords(Math.Abs(number));
+					return "Try again next time with positive number" ;
 				
 				string words = "";
 

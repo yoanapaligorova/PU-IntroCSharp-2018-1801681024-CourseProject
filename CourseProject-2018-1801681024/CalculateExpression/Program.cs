@@ -7,9 +7,9 @@ namespace CalculateExpression
 	{
 		static void Main(string[] args)
 		{
-			//                      Task 2  
-			// Да се запише според правилата на С# изразът: - стр.129 / Тест 1/2 I group
-
+			/*                     Task 2  
+			 Да се запише според правилата на С# изразът: - стр.129 / Тест 1/2 I group
+			*/
 			Console.OutputEncoding = Encoding.UTF8;
 			Console.WriteLine("Решаване на числов израз");
 			double result = 0;
@@ -19,7 +19,7 @@ namespace CalculateExpression
 			double y = double.Parse(Console.ReadLine());
 			Console.Write("Enter z=");
 			double z = double.Parse(Console.ReadLine());
-			if (y > 0)
+			if (y >= 0)
 			{
 				result = ((Math.Pow(x, 7) * y * z) - (3 * 3 * Math.Abs(x + Math.Pow(y, 0.25)))) / (Math.Pow(10, 7) + Math.Sqrt(Math.Log(4)));
 				Console.WriteLine("Резултатът =" + " " + result);
