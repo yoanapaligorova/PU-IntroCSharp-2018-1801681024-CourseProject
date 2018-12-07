@@ -17,8 +17,8 @@ namespace Binery
 			string binery8 = Convert.ToString(numberValue, 8);
 			string binery16 = Convert.ToString(numberValue, 16);
 
-			Console.WriteLine("Числото 2024 в осмична бройна система => " + binery8);
-			Console.WriteLine("Числото 2024 в шеснайсетична бройна система => " + binery16);
+			Console.WriteLine(" В осмична бройна система => " + binery8);
+			Console.WriteLine(" В шеснайсетична бройна система => " + binery16);
 		}
 	}
 }

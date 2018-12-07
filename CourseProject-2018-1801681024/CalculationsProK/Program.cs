@@ -5,8 +5,8 @@ namespace CalculationsProK
 	class Program
 	{
 			//  Task 5  -  стр.214 / 378 
-		private static Random rand = new Random();
 
+		 private static Random rand = new Random();
 		static int Pro(int k)
 		{
 			int product = 1;

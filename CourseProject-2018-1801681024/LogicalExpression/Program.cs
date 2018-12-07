@@ -29,10 +29,12 @@ namespace LogicalExpression
 			if (firstCount > 0 || secondCount < tirthCount && fourthCount <= 5)
 			{
 				result = true;
-				Console.WriteLine(" It is  " + result);
+				Console.WriteLine(" It is " + result);
 			}
 			else
-			{ Console.WriteLine(" It is  " + result); }
+			{
+				Console.WriteLine(" It is " + result);
+			}
 			Console.ReadKey(true);
 		}
 	}

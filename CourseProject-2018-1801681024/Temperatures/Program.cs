@@ -46,7 +46,7 @@ namespace Temperatures
 					}
 					else if (Max < a[i])
 					{
-						Max = a[i];
+					    Max = a[i];
 					}
 				}
 				Console.WriteLine("  ");
@@ -56,7 +56,7 @@ namespace Temperatures
 
 				// г) Да се изведат на екрана всички среднодневни температури в Келвинови гардуси.
 
-				Console.WriteLine("The temperatures for the current month in °K :");
+				Console.WriteLine("The temperatures for the current month in °K : ");
 				for (int i = 0; i < today.Day; i++)
 					Console.WriteLine(Kelvin(a[i]));
 			}

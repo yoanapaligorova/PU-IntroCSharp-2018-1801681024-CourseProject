@@ -22,7 +22,7 @@ namespace CalculateExpression
 			if (y >= 0)
 			{
 				result = ((Math.Pow(x, 7) * y * z) - (3 * 3 * Math.Abs(x + Math.Pow(y, 0.25)))) / (Math.Pow(10, 7) + Math.Sqrt(Math.Log(4)));
-				Console.WriteLine("Резултатът =" + " " + result);
+				Console.WriteLine("Резултатът = " + result);
 			}
 			else
 			{
